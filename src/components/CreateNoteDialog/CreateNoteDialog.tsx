@@ -9,10 +9,11 @@ import {
   DialogTrigger,
 } from "../ui/dialog";
 import { Loader2, Plus } from "lucide-react";
-import { Input } from "../ui/input";
+import { Input } from "../ui/input"
 import axios from "axios";
 import { Button } from "../ui/button";
-import { useMutation } from "@tanstack/react-query";
+import { QueryClient, QueryClientProvider ,useMutation } from "@tanstack/react-query";
+// import { useMutation , QueryClientProvider} from "@tanstack/react-query";
 import { useRouter } from "next/navigation";
 
 type Props = {};
